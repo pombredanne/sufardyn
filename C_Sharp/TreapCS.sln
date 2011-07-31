@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreapCS", "TreapCS.csproj", "{2AF08992-EF6A-4448-8B08-3C07C7A0D72E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{A56E89A8-07AA-49F1-918C-332AAC0E7F07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AF08992-EF6A-4448-8B08-3C07C7A0D72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF08992-EF6A-4448-8B08-3C07C7A0D72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF08992-EF6A-4448-8B08-3C07C7A0D72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF08992-EF6A-4448-8B08-3C07C7A0D72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56E89A8-07AA-49F1-918C-332AAC0E7F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56E89A8-07AA-49F1-918C-332AAC0E7F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56E89A8-07AA-49F1-918C-332AAC0E7F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56E89A8-07AA-49F1-918C-332AAC0E7F07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
