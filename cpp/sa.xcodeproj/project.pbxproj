@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10D810C15BF1B780074E2E0 /* StringStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C10D810B15BF1B780074E2E0 /* StringStream.cpp */; };
+		C1501D3015B73EA900F2279B /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1501D2F15B73EA900F2279B /* String.cpp */; };
+		C1501D3315B7514200F2279B /* SimpleString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1501D3215B7514100F2279B /* SimpleString.cpp */; };
+		C168A59B15A78502005A391A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A59A15A78502005A391A /* main.cpp */; };
+		C168A59D15A78502005A391A /* sa.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C168A59C15A78502005A391A /* sa.1 */; };
+		C168A5C415A789A3005A391A /* AggregateTreap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5A915A789A3005A391A /* AggregateTreap.cpp */; };
+		C168A5C515A789A3005A391A /* BaseTreapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5AB15A789A3005A391A /* BaseTreapNode.cpp */; };
+		C168A5C615A789A3005A391A /* ImplicitSuffixArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5AE15A789A3005A391A /* ImplicitSuffixArray.cpp */; };
+		C168A5C715A789A3005A391A /* InverseIntTreap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5B015A789A3005A391A /* InverseIntTreap.cpp */; };
+		C168A5C815A789A3005A391A /* InverseTreap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5B215A789A3005A391A /* InverseTreap.cpp */; };
+		C168A5C915A789A3005A391A /* InvertedSuffixArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5B415A789A3005A391A /* InvertedSuffixArray.cpp */; };
+		C168A5CA15A789A3005A391A /* InvertedSuffixArrayInsertSearchStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5B615A789A3005A391A /* InvertedSuffixArrayInsertSearchStrategy.cpp */; };
+		C168A5CB15A789A3005A391A /* ParentTreapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5B815A789A3005A391A /* ParentTreapNode.cpp */; };
+		C168A5CD15A789A3005A391A /* StaticSuffixArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5BB15A789A3005A391A /* StaticSuffixArray.cpp */; };
+		C168A5CE15A789A3005A391A /* InvertedStringStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5BD15A789A3005A391A /* InvertedStringStream.cpp */; };
+		C168A5CF15A789A3005A391A /* Treap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5C015A789A3005A391A /* Treap.cpp */; };
+		C168A5D015A789A3005A391A /* TreapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5C215A789A3005A391A /* TreapNode.cpp */; };
+		C168A5D815A8DA27005A391A /* JointTreapNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5D615A8DA27005A391A /* JointTreapNode.cpp */; };
+		C168A5E215ACBB6B005A391A /* JointInverseTreap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C168A5E115ACBB6B005A391A /* JointInverseTreap.cpp */; };
+		C1D1B69F15C1E2C300B157FB /* SuffixArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B69E15C1E2C300B157FB /* SuffixArray.cpp */; };
+		C1D1B6A915C3332100B157FB /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B6A815C3332100B157FB /* Utils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C168A59415A78502005A391A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C168A59D15A78502005A391A /* sa.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C10D810915BF19530074E2E0 /* StringStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringStream.h; sourceTree = "<group>"; };
+		C10D810B15BF1B780074E2E0 /* StringStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringStream.cpp; sourceTree = "<group>"; };
+		C1501D2D15B73E8800F2279B /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		C1501D2F15B73EA900F2279B /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
+		C1501D3115B7511C00F2279B /* SimpleString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleString.h; sourceTree = "<group>"; };
+		C1501D3215B7514100F2279B /* SimpleString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleString.cpp; sourceTree = "<group>"; };
+		C168A59615A78502005A391A /* sa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sa; sourceTree = BUILT_PRODUCTS_DIR; };
+		C168A59A15A78502005A391A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C168A59C15A78502005A391A /* sa.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = sa.1; sourceTree = "<group>"; };
+		C168A5A715A789A3005A391A /* AbstractBinarySearchStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBinarySearchStrategy.h; sourceTree = "<group>"; };
+		C168A5A815A789A3005A391A /* AbstractMonoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMonoid.h; sourceTree = "<group>"; };
+		C168A5A915A789A3005A391A /* AggregateTreap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AggregateTreap.cpp; sourceTree = "<group>"; };
+		C168A5AA15A789A3005A391A /* AggregateTreap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AggregateTreap.h; sourceTree = "<group>"; };
+		C168A5AB15A789A3005A391A /* BaseTreapNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseTreapNode.cpp; sourceTree = "<group>"; };
+		C168A5AC15A789A3005A391A /* BaseTreapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTreapNode.h; sourceTree = "<group>"; };
+		C168A5AD15A789A3005A391A /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		C168A5AE15A789A3005A391A /* ImplicitSuffixArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImplicitSuffixArray.cpp; sourceTree = "<group>"; };
+		C168A5AF15A789A3005A391A /* ImplicitSuffixArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitSuffixArray.h; sourceTree = "<group>"; };
+		C168A5B015A789A3005A391A /* InverseIntTreap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InverseIntTreap.cpp; sourceTree = "<group>"; };
+		C168A5B115A789A3005A391A /* InverseIntTreap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InverseIntTreap.h; sourceTree = "<group>"; };
+		C168A5B215A789A3005A391A /* InverseTreap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InverseTreap.cpp; sourceTree = "<group>"; };
+		C168A5B315A789A3005A391A /* InverseTreap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InverseTreap.h; sourceTree = "<group>"; };
+		C168A5B415A789A3005A391A /* InvertedSuffixArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InvertedSuffixArray.cpp; sourceTree = "<group>"; };
+		C168A5B515A789A3005A391A /* InvertedSuffixArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertedSuffixArray.h; sourceTree = "<group>"; };
+		C168A5B615A789A3005A391A /* InvertedSuffixArrayInsertSearchStrategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InvertedSuffixArrayInsertSearchStrategy.cpp; sourceTree = "<group>"; };
+		C168A5B715A789A3005A391A /* InvertedSuffixArrayInsertSearchStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertedSuffixArrayInsertSearchStrategy.h; sourceTree = "<group>"; };
+		C168A5B815A789A3005A391A /* ParentTreapNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParentTreapNode.cpp; sourceTree = "<group>"; };
+		C168A5B915A789A3005A391A /* ParentTreapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentTreapNode.h; sourceTree = "<group>"; };
+		C168A5BB15A789A3005A391A /* StaticSuffixArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StaticSuffixArray.cpp; sourceTree = "<group>"; };
+		C168A5BC15A789A3005A391A /* StaticSuffixArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticSuffixArray.h; sourceTree = "<group>"; };
+		C168A5BD15A789A3005A391A /* InvertedStringStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InvertedStringStream.cpp; sourceTree = "<group>"; };
+		C168A5BE15A789A3005A391A /* InvertedStringStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertedStringStream.h; sourceTree = "<group>"; };
+		C168A5BF15A789A3005A391A /* SuffixArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuffixArray.h; sourceTree = "<group>"; };
+		C168A5C015A789A3005A391A /* Treap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Treap.cpp; sourceTree = "<group>"; };
+		C168A5C115A789A3005A391A /* Treap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Treap.h; sourceTree = "<group>"; };
+		C168A5C215A789A3005A391A /* TreapNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreapNode.cpp; sourceTree = "<group>"; };
+		C168A5C315A789A3005A391A /* TreapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreapNode.h; sourceTree = "<group>"; };
+		C168A5D615A8DA27005A391A /* JointTreapNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JointTreapNode.cpp; sourceTree = "<group>"; };
+		C168A5D715A8DA27005A391A /* JointTreapNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JointTreapNode.h; sourceTree = "<group>"; };
+		C168A5DF15ACBB19005A391A /* JointInverseTreap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JointInverseTreap.h; sourceTree = "<group>"; };
+		C168A5E115ACBB6B005A391A /* JointInverseTreap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JointInverseTreap.cpp; sourceTree = "<group>"; };
+		C1D1B69E15C1E2C300B157FB /* SuffixArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuffixArray.cpp; sourceTree = "<group>"; };
+		C1D1B6A715C332F200B157FB /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		C1D1B6A815C3332100B157FB /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C168A59315A78502005A391A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C168A58B15A78502005A391A = {
+			isa = PBXGroup;
+			children = (
+				C168A59915A78502005A391A /* sa */,
+				C168A59715A78502005A391A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C168A59715A78502005A391A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C168A59615A78502005A391A /* sa */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C168A59915A78502005A391A /* sa */ = {
+			isa = PBXGroup;
+			children = (
+				C1D1B6A615C1EFDF00B157FB /* Utils */,
+				C1D1B6A515C1EFA100B157FB /* BinarySearch */,
+				C1D1B6A415C1EF1C00B157FB /* Treap */,
+				C1D1B6A315C1EEEE00B157FB /* String */,
+				C1D1B6A215C1EEC100B157FB /* SuffixArray */,
+				C1D1B6A115C1EE7C00B157FB /* Node */,
+				C168A59A15A78502005A391A /* main.cpp */,
+				C168A59C15A78502005A391A /* sa.1 */,
+			);
+			path = sa;
+			sourceTree = "<group>";
+		};
+		C1D1B6A115C1EE7C00B157FB /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				C168A5AB15A789A3005A391A /* BaseTreapNode.cpp */,
+				C168A5AC15A789A3005A391A /* BaseTreapNode.h */,
+				C168A5B815A789A3005A391A /* ParentTreapNode.cpp */,
+				C168A5B915A789A3005A391A /* ParentTreapNode.h */,
+				C168A5C215A789A3005A391A /* TreapNode.cpp */,
+				C168A5C315A789A3005A391A /* TreapNode.h */,
+				C168A5D615A8DA27005A391A /* JointTreapNode.cpp */,
+				C168A5D715A8DA27005A391A /* JointTreapNode.h */,
+			);
+			name = Node;
+			sourceTree = "<group>";
+		};
+		C1D1B6A215C1EEC100B157FB /* SuffixArray */ = {
+			isa = PBXGroup;
+			children = (
+				C168A5AE15A789A3005A391A /* ImplicitSuffixArray.cpp */,
+				C168A5AF15A789A3005A391A /* ImplicitSuffixArray.h */,
+				C168A5B415A789A3005A391A /* InvertedSuffixArray.cpp */,
+				C168A5B515A789A3005A391A /* InvertedSuffixArray.h */,
+				C168A5BB15A789A3005A391A /* StaticSuffixArray.cpp */,
+				C168A5BC15A789A3005A391A /* StaticSuffixArray.h */,
+				C1D1B69E15C1E2C300B157FB /* SuffixArray.cpp */,
+				C168A5BF15A789A3005A391A /* SuffixArray.h */,
+			);
+			name = SuffixArray;
+			sourceTree = "<group>";
+		};
+		C1D1B6A315C1EEEE00B157FB /* String */ = {
+			isa = PBXGroup;
+			children = (
+				C1501D3215B7514100F2279B /* SimpleString.cpp */,
+				C1501D3115B7511C00F2279B /* SimpleString.h */,
+				C168A5BD15A789A3005A391A /* InvertedStringStream.cpp */,
+				C168A5BE15A789A3005A391A /* InvertedStringStream.h */,
+				C1501D2F15B73EA900F2279B /* String.cpp */,
+				C1501D2D15B73E8800F2279B /* String.h */,
+				C10D810B15BF1B780074E2E0 /* StringStream.cpp */,
+				C10D810915BF19530074E2E0 /* StringStream.h */,
+			);
+			name = String;
+			sourceTree = "<group>";
+		};
+		C1D1B6A415C1EF1C00B157FB /* Treap */ = {
+			isa = PBXGroup;
+			children = (
+				C168A5A915A789A3005A391A /* AggregateTreap.cpp */,
+				C168A5AA15A789A3005A391A /* AggregateTreap.h */,
+				C168A5B015A789A3005A391A /* InverseIntTreap.cpp */,
+				C168A5B115A789A3005A391A /* InverseIntTreap.h */,
+				C168A5B215A789A3005A391A /* InverseTreap.cpp */,
+				C168A5B315A789A3005A391A /* InverseTreap.h */,
+				C168A5E115ACBB6B005A391A /* JointInverseTreap.cpp */,
+				C168A5DF15ACBB19005A391A /* JointInverseTreap.h */,
+				C168A5C015A789A3005A391A /* Treap.cpp */,
+				C168A5C115A789A3005A391A /* Treap.h */,
+			);
+			name = Treap;
+			sourceTree = "<group>";
+		};
+		C1D1B6A515C1EFA100B157FB /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				C168A5A715A789A3005A391A /* AbstractBinarySearchStrategy.h */,
+				C168A5AD15A789A3005A391A /* BinarySearch.h */,
+				C168A5B615A789A3005A391A /* InvertedSuffixArrayInsertSearchStrategy.cpp */,
+				C168A5B715A789A3005A391A /* InvertedSuffixArrayInsertSearchStrategy.h */,
+			);
+			name = BinarySearch;
+			sourceTree = "<group>";
+		};
+		C1D1B6A615C1EFDF00B157FB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C168A5A815A789A3005A391A /* AbstractMonoid.h */,
+				C1D1B6A715C332F200B157FB /* Utils.h */,
+				C1D1B6A815C3332100B157FB /* Utils.cpp */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C168A59515A78502005A391A /* sa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C168A5A015A78502005A391A /* Build configuration list for PBXNativeTarget "sa" */;
+			buildPhases = (
+				C168A59215A78502005A391A /* Sources */,
+				C168A59315A78502005A391A /* Frameworks */,
+				C168A59415A78502005A391A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sa;
+			productName = sa;
+			productReference = C168A59615A78502005A391A /* sa */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C168A58D15A78502005A391A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C168A59015A78502005A391A /* Build configuration list for PBXProject "sa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C168A58B15A78502005A391A;
+			productRefGroup = C168A59715A78502005A391A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C168A59515A78502005A391A /* sa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C168A59215A78502005A391A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C168A59B15A78502005A391A /* main.cpp in Sources */,
+				C168A5C415A789A3005A391A /* AggregateTreap.cpp in Sources */,
+				C168A5C515A789A3005A391A /* BaseTreapNode.cpp in Sources */,
+				C168A5C615A789A3005A391A /* ImplicitSuffixArray.cpp in Sources */,
+				C168A5C715A789A3005A391A /* InverseIntTreap.cpp in Sources */,
+				C168A5C815A789A3005A391A /* InverseTreap.cpp in Sources */,
+				C168A5C915A789A3005A391A /* InvertedSuffixArray.cpp in Sources */,
+				C168A5CA15A789A3005A391A /* InvertedSuffixArrayInsertSearchStrategy.cpp in Sources */,
+				C168A5CB15A789A3005A391A /* ParentTreapNode.cpp in Sources */,
+				C168A5CD15A789A3005A391A /* StaticSuffixArray.cpp in Sources */,
+				C168A5CE15A789A3005A391A /* InvertedStringStream.cpp in Sources */,
+				C168A5CF15A789A3005A391A /* Treap.cpp in Sources */,
+				C168A5D015A789A3005A391A /* TreapNode.cpp in Sources */,
+				C168A5D815A8DA27005A391A /* JointTreapNode.cpp in Sources */,
+				C168A5E215ACBB6B005A391A /* JointInverseTreap.cpp in Sources */,
+				C1501D3015B73EA900F2279B /* String.cpp in Sources */,
+				C1501D3315B7514200F2279B /* SimpleString.cpp in Sources */,
+				C10D810C15BF1B780074E2E0 /* StringStream.cpp in Sources */,
+				C1D1B69F15C1E2C300B157FB /* SuffixArray.cpp in Sources */,
+				C1D1B6A915C3332100B157FB /* Utils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C168A59E15A78502005A391A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C168A59F15A78502005A391A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C168A5A115A78502005A391A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C168A5A215A78502005A391A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C168A59015A78502005A391A /* Build configuration list for PBXProject "sa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C168A59E15A78502005A391A /* Debug */,
+				C168A59F15A78502005A391A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C168A5A015A78502005A391A /* Build configuration list for PBXNativeTarget "sa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C168A5A115A78502005A391A /* Debug */,
+				C168A5A215A78502005A391A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C168A58D15A78502005A391A /* Project object */;
+}

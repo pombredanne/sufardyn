@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Monoid">
+      <UniqueIdentifier>{e19819a9-ec28-491d-b8f7-10ad1c121179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Treap">
+      <UniqueIdentifier>{0a55170d-51b8-4673-ae41-ddeb9609ba58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InvertedSuffixArray">
+      <UniqueIdentifier>{ee0a5e0f-ad6b-48d7-8b10-67788749419c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InvertedSuffixArray\BinarySearchStrategy">
+      <UniqueIdentifier>{bb0f6ce2-8cba-495e-9e76-1c80737aee4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String">
+      <UniqueIdentifier>{97592017-2de1-4224-b8ce-64f117d48479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AggregateTreap.cpp">
+      <Filter>Source Files\Treap</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseTreapNode.cpp">
+      <Filter>Source Files\Treap</Filter>
+    </ClCompile>
+    <ClCompile Include="InverseIntTreap.cpp">
+      <Filter>Source Files\Treap</Filter>
+    </ClCompile>
+    <ClCompile Include="InverseTreap.cpp">
+      <Filter>Source Files\Treap</Filter>
+    </ClCompile>
+    <ClCompile Include="ParentTreapNode.cpp">
+      <Filter>Source Files\Treap</Filter>
+    </ClCompile>
+    <ClCompile Include="Treap.cpp">
+      <Filter>Source Files\Treap</Filter>
+    </ClCompile>
+    <ClCompile Include="TreapNode.cpp">
+      <Filter>Source Files\Treap</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertedSuffixArray.cpp">
+      <Filter>Source Files\InvertedSuffixArray</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertedSuffixArrayInsertSearchStrategy.cpp">
+      <Filter>Source Files\InvertedSuffixArray\BinarySearchStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="StringStream.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplicitSuffixArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JointInverseTreap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JointTreapNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticSuffixArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InvertedStringStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SuffixArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SuffixArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InvertedSuffixArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Treap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreapNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractBinarySearchStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMonoid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AggregateTreap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTreapNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplicitSuffixArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InverseIntTreap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InverseTreap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InvertedSuffixArrayInsertSearchStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JointInverseTreap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JointTreapNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParentTreapNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticSuffixArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InvertedStringStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+</Project>
